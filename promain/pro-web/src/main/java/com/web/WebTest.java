@@ -9,7 +9,7 @@ public class WebTest {
 		UtilTest ut = new UtilTest();
 		ct.talk();
 		ut.talk();
-		System.out.println("WebTest talking~~");
+		System.out.println("WebTest talking~~ end");
 	}
 	
 	

@@ -22,10 +22,10 @@ public class MonitorTomcat {
 	           con.setReadTimeout(10000); 
 	           while ((s = in.readLine()) != null) {
 	        	   System.out.println(s);
-//	              if (s.length() > 0) {
-//	                  // 如果能够读取到页面则证明可用 
-//	                  break; 
-//	              } 
+	              if (s.length() > 0) {
+	                  // 如果能够读取到页面则证明tomcat正常，直接return
+	                  return; 
+	              } 
 	           } 
 	           in.close(); 
 	       } catch (Exception ex) { 

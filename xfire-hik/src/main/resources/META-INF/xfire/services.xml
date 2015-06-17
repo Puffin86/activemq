@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<service xmlns="http://XFire.codehaus.org/config/1.0">
+		<name>HelloWorldService</name>
+		<namespace>http://xfire-hik:9988/HelloWorldService</namespace>
+		<serviceClass>
+			com.xfireservices.HelloWorldService
+		</serviceClass>
+		<implementationClass>
+			com.xfireservicesImp.HelloWorldServiceImpl
+		</implementationClass>
+	</service>
+</beans>
+
+

@@ -2,11 +2,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maven.pro</groupId>
   <artifactId>promain</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>pom</packaging>
   <modules>
   	<module>pro-core</module>
   	<module>pro-util</module>
   	<module>pro-web</module>
   </modules>
+  
+  <dependencies>
+  	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring</artifactId>
+		<version>2.5.6.SEC03</version>
+	</dependency>
+	  	
+  </dependencies>
+  
 </project>

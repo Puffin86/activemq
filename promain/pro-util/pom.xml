@@ -3,9 +3,19 @@
   <parent>
     <groupId>com.maven.pro</groupId>
     <artifactId>promain</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
   </parent>
   <groupId>com.maven.pro</groupId>
   <artifactId>pro-util</artifactId>
   <version>1.0</version>
+  
+  
+  <dependencies>
+  		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+  </dependencies>
+  
 </project>
